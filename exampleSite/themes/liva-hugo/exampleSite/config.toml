@@ -1,11 +1,11 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/liva/examplesite/"
-languageCode = "en-us"
+baseURL = "https://shunfenglee.github.io/"
+languageCode = "zh-tw"
 title = "Liva | Personal blog template"
 theme = "liva-hugo"
 summaryLength = "10"
 paginate = 6
-disqusShortname = ""
+disqusShortname = "shunfenglee"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
@@ -83,8 +83,7 @@ home = "Home"
 # Meta data
 description = "This is meta description"
 author = "Themefisher"
-# Google Analitycs
-googleAnalitycsID = "Your ID"
+
 # Contact Information
 mobile = "0124857985320"
 email = "demo@email.com"
