@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Color Your World</title>
-    <link>http://localhost:1313/tags/syntax-highlighting/</link>
+    <link>https://color-your-world-demo.netlify.app/tags/syntax-highlighting/</link>
     <description>John Doe&#39;s personal website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2021, John Doe; All rights reserved.</copyright><atom:link href="http://localhost:1313/tags/syntax-highlighting/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2021, John Doe; All rights reserved.</copyright><atom:link href="https://color-your-world-demo.netlify.app/tags/syntax-highlighting/index.xml" rel="self" type="application/rss+xml" />
       <item>
         <title>Lorem Ipsum</title>
-        <link>http://localhost:1313/posts/lorem-ipsum/</link>
+        <link>https://color-your-world-demo.netlify.app/posts/lorem-ipsum/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/lorem-ipsum/</guid>
+        <guid>https://color-your-world-demo.netlify.app/posts/lorem-ipsum/</guid>
         <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus enim quis eros vulputate cursus.</description>
       </item>
     
       <item>
         <title>Read me</title>
-        <link>http://localhost:1313/posts/read-me/</link>
+        <link>https://color-your-world-demo.netlify.app/posts/read-me/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/read-me/</guid>
+        <guid>https://color-your-world-demo.netlify.app/posts/read-me/</guid>
         <description>Read me file.</description>
       </item>
     
       <item>
         <title>Syntax Highlighting Test</title>
-        <link>http://localhost:1313/posts/syntax-highlighting-test/</link>
+        <link>https://color-your-world-demo.netlify.app/posts/syntax-highlighting-test/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/posts/syntax-highlighting-test/</guid>
+        <guid>https://color-your-world-demo.netlify.app/posts/syntax-highlighting-test/</guid>
         <description>A page full of code samples.</description>
       </item>
     

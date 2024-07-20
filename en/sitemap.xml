@@ -4,7 +4,7 @@
   
   
     <url>
-      <loc>http://localhost:1313/posts/using-katex/</loc>
+      <loc>https://color-your-world-demo.netlify.app/posts/using-katex/</loc>
       
       
         <lastmod>2022-03-08T00:00:00+00:00</lastmod>
@@ -21,7 +21,7 @@
   
   
     <url>
-      <loc>http://localhost:1313/posts/lorem-ipsum/</loc>
+      <loc>https://color-your-world-demo.netlify.app/posts/lorem-ipsum/</loc>
       
       
       
@@ -34,14 +34,14 @@
           <xhtml:link
             rel="alternate"
             hreflang="pt"
-            href="http://localhost:1313/pt/posts/lorem-ipsum/"
+            href="https://color-your-world-demo.netlify.app/pt/posts/lorem-ipsum/"
             />
         
         
         <xhtml:link
           rel="alternate"
           hreflang="en"
-          href="http://localhost:1313/posts/lorem-ipsum/"
+          href="https://color-your-world-demo.netlify.app/posts/lorem-ipsum/"
           />
       
       
@@ -50,7 +50,7 @@
   
   
     <url>
-      <loc>http://localhost:1313/posts/read-me/</loc>
+      <loc>https://color-your-world-demo.netlify.app/posts/read-me/</loc>
       
       
       
@@ -65,7 +65,7 @@
   
   
     <url>
-      <loc>http://localhost:1313/posts/syntax-highlighting-test/</loc>
+      <loc>https://color-your-world-demo.netlify.app/posts/syntax-highlighting-test/</loc>
       
       
       
