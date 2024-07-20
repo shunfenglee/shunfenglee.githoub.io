@@ -1,0 +1,50 @@
+[home]
+other = "首頁"
+
+[backToHome]
+other = "返回首頁"
+
+[flip]
+other = "翻轉！"
+
+[about]
+other = "關於"
+
+[archives]
+other = "日誌"
+
+[allTags]
+other = "所有標籤"
+
+[tag]
+one = "1 標籤"
+other = "{{ .Count }} 標籤"
+
+[allCategories]
+other = "所有分類"
+
+[category]
+one = "1 分類"
+other = "{{ .Count }} 分類"
+
+[article]
+one = "1篇文章"
+other = "{{ .Count }}篇文章"
+
+[socialLinks]
+other = "Social Links = 社交連結 ="
+
+[minuteRead]
+other = " 分鐘閱讀"
+
+[updateAt]
+other = "更新於"
+
+[prevPage]
+other = "上一頁"
+
+[nextPage]
+other = "下一頁"
+
+[search]
+other = "搜尋"
