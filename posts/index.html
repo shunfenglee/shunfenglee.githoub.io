@@ -1,185 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" data-mode="dark">
-  <head prefix="og: http://ogp.me/ns#">
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="generator" content="Hugo 0.128.2">
-<meta name="theme" content="Color Your World -- gitlab.com/rmaguiar/hugo-theme-color-your-world">
+<html lang="zh-tw"
+  x-data
+  :class="$store.darkMode.class()"
+  :data-theme="$store.darkMode.theme()">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日誌 | ShunFeng&#39;s Blog</title>
 
-
-<title>Posts, page 1 of 2 | Color Your World</title>
-
-<meta name="author" content="John Doe">
-<meta name="description" content="A generic meta description.">
-
-
-<meta name="robots" content="index follow">
+    
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 
 
 
-  <link rel="canonical" href="https://color-your-world-demo.netlify.app/posts/">
-  
-  
-  
-  
-    <link rel="next" href="https://color-your-world-demo.netlify.app/posts/page/2/">
-  
+<meta name="author" content="ShunFeng" />
+<meta name="description" content="照時間線顯示所有文章。" />
 
 
+<link rel="canonical" href="https://shunfenglee.github.io/posts/" />
 
 
-
-
-
-
-<meta property="og:site_name" content="Color Your World">
-<meta property="og:title" content="Posts">
-<meta property="og:description" content="A generic meta description.">
-  <meta property="og:url" content="https://color-your-world-demo.netlify.app/posts/">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<meta property="og:url" content="https://shunfenglee.github.io/posts/">
+  <meta property="og:site_name" content="ShunFeng&#39;s Blog">
+  <meta property="og:title" content="日誌">
+  <meta property="og:description" content="照時間線顯示所有文章。">
+  <meta property="og:locale" content="zh_tw">
   <meta property="og:type" content="website">
-
-  <meta name="twitter:site" content="@&lt;username&gt;">
-
+    <meta property="og:image" content="https://shunfenglee.github.io/me/background.jpg">
 
 
 
 
-
-
-  <meta name="twitter:dnt" content="on">
-
-
-
-
-
-  <link rel="alternate" type="application/rss+xml" href="https://color-your-world-demo.netlify.app/posts/index.xml" title="Color Your World">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://shunfenglee.github.io/me/background.jpg">
+  <meta name="twitter:title" content="日誌">
+  <meta name="twitter:description" content="照時間線顯示所有文章。">
 
 
 
+<meta name="generator" content="Hugo 0.128.2">
 
+<link rel="stylesheet" href="/css/output.css" />
 
-  
-    <link rel="alternate" hreflang="pt" href="https://color-your-world-demo.netlify.app/pt/posts/" title="Português">
-  
-
-
-
-
-<meta name="theme-color" content="#222">
-
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<style>
 
 
 
-
-
-
-
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "url": "https://color-your-world-demo.netlify.app/",
-      "inLanguage": "en",
-      "name": "Color Your World",
-      "description": "John Doe's personal website",
-      "publisher": "John Doe"
-    }
-  </script>
-
-
-
-
-
-
-<link rel="stylesheet" href="https://color-your-world-demo.netlify.app/css/main.min.96593a1b2dd57f4da65d328cd6785929db5212bf44aaee49ed78676a728d6538.css" integrity="sha256-llk6Gy3Vf02mXTKM1nhZKdtSEr9Equ5J7XhnanKNZTg=" crossorigin="anonymous">
-
-
-
-<noscript>
-
-  
-  
-
-  
-    <meta name="theme-color" content="#1dbc91" media="(prefers-color-scheme: dark)">
-    <meta name="theme-color" content="#1f676b" media="(prefers-color-scheme: light)">
-  
-
-  
-  <link rel="stylesheet" href="https://color-your-world-demo.netlify.app/css/noscript.min.3f3b95436b19eaeb9223fb12c0b86737d53ee0a47fdba271a886c244bc03975c.css" integrity="sha256-PzuVQ2sZ6uuSI/sSwLhnN9U&#43;4KR/26JxqIbCRLwDl1w=" crossorigin="anonymous">
-
-</noscript>
-
-
-
-<link rel="preload" href="/fonts/open-sans-v34-latin-700.woff2" as="font" crossorigin="anonymous">
-<link rel="preload" href="/fonts/open-sans-v34-latin-italic.woff2" as="font" crossorigin="anonymous">
-<link rel="preload" href="/fonts/open-sans-v34-latin-regular.woff2" as="font" crossorigin="anonymous">
-<link rel="preload" href="/fonts/oswald-v29-latin-700.woff2" as="font" crossorigin="anonymous">
-
-
-
-
-
-
-
-
-
-<link rel="me" href="https://facebook.com/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://www.flickr.com/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://open.audio/%3cusername%3e"> 
-<link rel="me" href="https://github.com/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://gitlab.com/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://www.instagram.com/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://keybase.io/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://www.linkedin.com/in/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://mastodon.social/%3cusername%3e"> 
-<link rel="me" href="https://mastodon.too/%3cusername%3e"> 
-<link rel="me" href="https://yet.another.one/%3cusername%3e"> 
-<link rel="me" href="https://matrix.to/#/%3cusername%3e:matrix.org"> 
-<link rel="me" href="https://matrix.to/#/%3cusername%3e:other.org"> 
-<link rel="me" href="https://%3cusername%3e.medium.com/%3cusername%3e"> 
-<link rel="me" href="https://peertube.something/accounts/%3cusername%3e"> 
-<link rel="me" href="https://pixelfed.social/%3cusername%3e"> 
-<link rel="me" href="https://www.reddit.com/user/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://app.element.io/#/user/%3cusername%3e:matrix.org"> 
-<link rel="me" href="https://www.snapchat.com/add/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://soundcloud.com/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://stackoverflow.com/users/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://www.strava.com/athletes/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://t.me/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://www.twitch.tv/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://twitter.com/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://vimeo.com/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://wa.me/%3cusername%3e%3cnumber%3e"> 
-<link rel="me" href="https://www.xing.com/profile/%3cusername%3e%3cusername%3e"> 
-<link rel="me" href="https://youtube.com/channel/%3cusername%3e%3cchannelid%3e"> 
-
-
-
-
-  
-  
-
-
-<script src="https://color-your-world-demo.netlify.app/js/main.f1da21dfea83dc0c36cea0b202c14a97e00aedab567e32702eb120f5ab8d974b.js" integrity="sha256-8doh3&#43;qD3Aw2zqCyAsFKl&#43;AK7atWfjJwLrEg9auNl0s=" crossorigin="anonymous"></script>
+</style>
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC18RE2BVS"></script>
@@ -191,322 +59,445 @@
   gtag('config', 'G-QC18RE2BVS');
 </script>
 
+     
+
+    
+    <link rel="stylesheet" href="/css/custom.css" />
+    
+
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
 
-  <body>
+  <body x-data="{
+    flip: false,
+  }">
+    
+    <div id="dream-global-bg"></div>
 
-    <header>
+    
+<nav x-data="{ isSticky: false }"
+  x-init="window.addEventListener('scroll', () => { isSticky = window.scrollY > 30 })"
+  class="sticky top-0 z-30 mt-4 lg:mt-8 pt-4 pb-4"
+  :class="{ 'transition bg-base-100 shadow-xl dark:border-b dark:border-base-content/30': isSticky }">
+
+  <div class="container flex justify-between px-4">
+    <section class="flex items-center gap-4">
+      <div class="avatar cursor-pointer hover:online" @click="flip = !flip" title="翻轉！">
+        <div class="h-10 rounded-full">
+          <img src="https://scontent.ftpe8-3.fna.fbcdn.net/v/t39.30808-1/441525809_8319418528073153_6553555876227541548_n.jpg?stp=dst-jpg_p200x200&amp;_nc_cat=107&amp;ccb=1-7&amp;_nc_sid=0ecb9b&amp;_nc_ohc=UrJ_6R8I8sEQ7kNvgFnZNTT&amp;_nc_ht=scontent.ftpe8-3.fna&amp;oh=00_AYBUuzO-2rgF1UdPus1uhK0G3I0-R2crwwDoUdu5ftv8bw&amp;oe=66A1B284" alt="ShunFeng&#39;s Blog" />
+        </div>
+      </div>
+
       
-
-  <a href="/">Color Your World</a>
-
-
-
-
-  
-    <nav aria-label="Main menu.">
-      <ul>
+      <div>
         
-          <li>
-            <a class="btn" href="/">About</a>
-          </li>
+        <a href="https://shunfenglee.github.io/" class="text-lg font-semibold cursor-pointer">
+          ShunFeng&#39;s Blog
+        </a>
         
-          <li>
-            <a class="btn" href="/posts/">Posts</a>
-          </li>
         
-          <li>
-            <a class="btn" href="/contact/">Contact</a>
-          </li>
+        <div class="text-base-content/60 text-sm">生活即是厭世，厭世不是全部。</div>
         
+      </div>
+      
+    </section>
+
+    <div class="dropdown dropdown-end sm:hidden">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-square">
+        <ion-icon name="menu-outline" size="large"></ion-icon>
+      </div>
+      <ul tabindex="0" class="dropdown-content menu w-36 bg-base-100 rounded-box z-[1] shadow">
+        
+
+
+<li>
+  <div role="link" tabindex="0" class="inline-flex items-center p-2 cursor-pointer" @click="flip = !flip" title="關於">
+    <ion-icon name="information-circle"></ion-icon>關於</div>
+</li>
+
+
+
+
+<li>
+  <a class="group inline-flex items-center p-2 cursor-pointer" href="/search" title="搜尋">
+    <ion-icon name="search"></ion-icon>
+    搜尋
+  </a>
+</li>
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/posts" title="日誌">
+    <ion-icon name="archive"></ion-icon>
+    日誌
+  </a>
+</li>
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/categories" title="所有分類">
+    <ion-icon name="grid"></ion-icon>
+    所有分類
+  </a>
+</li>
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/tags" title="所有標籤">
+    <ion-icon name="pricetags"></ion-icon>
+    所有標籤
+  </a>
+</li>
+
+
+
+<li>
+  <a class="inline-flex items-center p-2 cursor-pointer" href="/index.xml" title="RSS">
+    <ion-icon name="logo-rss"></ion-icon>
+    RSS
+  </a>
+</li>
+
+
       </ul>
-    </nav>
-  
-
-
-    </header>
-
-    <div class="filler">
-      
-  
-  
-
-  
-  
-
-  <main class="list">
-
-    
-    
-      
-
-
-
-
-
-
-
-
-
-<div class="req-js search-box">
-  
-    <form role="search" action="/search/">
-  
-      <label class="label-form" for="search-input">Search</label><input class="input-text" type="search" id="search-input" title='Search field. Accepts from 2 to 42 characters.' name="q" placeholder="ie.: lorem ipsum" minlength="2" maxlength="42" pattern="^[\S].*" required><button aria-label="Run search." class="btn outline-dashed" type="submit"><svg aria-hidden="true"><use xlink:href="/img/bundle.min.81064d3059ecbc81ba05123e6096d08d.svg#search"/></svg></button>
-    </form>
-  <hr>
-</div>
-
-    
-    
-    <h1>Posts</h1>
-    
-    
-
-      
-
-<ul class="posts">
-  
-  
-    
-    
-    
-      
-    
-
-    <li>
-      <a class="btn" href="/posts/using-katex/" title="Using KaTeX (2022-03-08)">
-        <p>Using KaTeX</p>
-
-        
-          <time datetime="2022-03-08">2022-03-08</time>
-        
-      </a>
-    </li>
-  
-  
-    
-    
-    
-
-    <li>
-      <a class="btn" href="/posts/lorem-ipsum/" title="Lorem Ipsum">
-        <p>Lorem Ipsum</p>
-
-        
-      </a>
-    </li>
-  
-  
-    
-    
-    
-
-    <li>
-      <a class="btn" href="/posts/read-me/" title="Read me">
-        <p>Read me</p>
-
-        
-      </a>
-    </li>
-  
-</ul>
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <nav aria-label="Pagination navigation.">
-    <ul class="pagination">
-      
-      
-      
-
-      
-      
-    
-      
-      
-      
-        
-        
-        
-        
-
-          
-
-        
-
-        
-        
-          <li class="current">
-          
-            <p>1</p>
-          
-          </li>
-        
-
-      
-      
-        
-        
-        
-        
-
-          
-
-        
-
-        
-        
-          <li >
-          
-            <a class="btn" href="/posts/page/2/" aria-label="Go to page 2." >2</a>
-          
-          </li>
-        
-
-      
-
-      
-      
-      <li>
-        <a class="btn" href="/posts/page/2/" aria-label="Go to next page.">
-          <svg aria-hidden="true">
-            <use xlink:href="/img/bundle.min.81064d3059ecbc81ba05123e6096d08d.svg#angle-right"/>
-          </svg>
-        </a>
-      </li>
-      
-
-      
-      
-      <li>
-        <a class="btn" href="/posts/page/2/" aria-label="Go to last page.">
-          <svg aria-hidden="true">
-            <use xlink:href="/img/bundle.min.81064d3059ecbc81ba05123e6096d08d.svg#angle-double-right"/>
-          </svg>
-        </a>
-      </li>
-      
-
-    </ul>
-  </nav>
-
-
-
-      
-  <hr>
-  <h2>Tags</h2>
-  
-  <ul class="terms">
-  
-    <li><a class="btn" href="/tags/chemistry/" title="Chemistry (1)">Chemistry<span>1</span></a></li>
-  
-    <li><a class="btn" href="/tags/emoji/" title="Emoji (2)">Emoji<span>2</span></a></li>
-  
-    <li><a class="btn" href="/tags/katex/" title="Katex (1)">Katex<span>1</span></a></li>
-  
-    <li><a class="btn" href="/tags/markdown/" title="Markdown (4)">Markdown<span>4</span></a></li>
-  
-    <li><a class="btn" href="/tags/math/" title="Math (1)">Math<span>1</span></a></li>
-  
-    <li><a class="btn" href="/tags/shortcodes/" title="Shortcodes (2)">Shortcodes<span>2</span></a></li>
-  
-    <li><a class="btn" href="/tags/syntax-highlighting/" title="Syntax Highlighting (3)">Syntax Highlighting<span>3</span></a></li>
-  
-</ul>
-
-
-
-
-    
-
-  </main>
-  
-
     </div>
-    
-    <footer>
-      
-
-
-  
-
-    
-
-    
+    <section class="hidden sm:flex sm:items-center sm:gap-2 md:gap-4">
       
       
+      
+      <div role="link" tabindex="0" class="text-sm font-semibold cursor-pointer hover:underline" @click="flip = !flip" title="關於">關於</div>
+      
+      
+
+      
+      <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/search" title="搜尋">
+        <ion-icon class="group-hover:text-primary-content" name="search"></ion-icon>
+      </a>
+      
+
+      
+      <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/posts" title="日誌">
+        <ion-icon class="group-hover:text-primary-content" name="archive"></ion-icon>
+      </a>
+      
+
+      
+      <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/categories" title="所有分類">
+        <ion-icon class="group-hover:text-primary-content" name="grid"></ion-icon>
+      </a>
+      
+
+      
+      <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/tags" title="所有標籤">
+        <ion-icon class="group-hover:text-primary-content" name="pricetags"></ion-icon>
+      </a>
+      
+
+      
+      <a class="group inline-flex items-center p-2 rounded-full cursor-pointer hover:bg-primary" href="/index.xml" title="RSS">
+        <ion-icon class="group-hover:text-primary-content" name="logo-rss"></ion-icon>
+      </a>
+      
+    </section>
+  </div>
+</nav>
+
+
+    <div class="flip-container" :class="{ 'flip-it': flip }">
+      <div class="flipper">
+        <section class="front">
+          <div class="container">
+            
+
+<div class="mt-8 lg:mt-12 px-4">
+  <div class="mx-auto prose dark:prose-invert">
+    <h1 class="text-3xl">
+      日誌
+    </h1>
     
+    <p class="text-sm"><p>照時間線顯示所有文章。</p>
+</p>
     
-    <p>Generated with <a href="https://gohugo.io">Hugo</a> using the <a href="https://gitlab.com/rmaguiar/hugo-theme-color-your-world">Color Your World</a> theme.</p>
+  </div>
 
-  
-
-
-
-
-
-
-
-  
-
-  
-    
-    
-  
-
-  <p>Also available in: <a rel="alternate" hreflang="pt" href="/pt/posts/">Português</a>.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="req-js">
-  <button class="outline-dashed" title="Change to light/dark mode."><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><use xlink:href="/img/bundle.min.81064d3059ecbc81ba05123e6096d08d.svg#adjust"/></svg></button><input class="outline-dashed" type="color" list="presets" value="#1dbc91" title="Change accent color." aria-label="Change accent color."><datalist id="presets"><option value="#1f676b"><option value="#1dbc91"><option value="#225670"><option value="#dd587c"><option value="#902b37"><option value="#f3a530"><option value="#754e85"><option value="#7fc121"><option value="#a8314a"><option value="#ff7433"><option value="#3e6728"><option value="#c063bd"><option value="#805080"><option value="#9d629d"><option value="#a064a0"><option value="#7daa50"><option value="#284531"><option value="#285790"><option value="#F5A83D"><option value="#88aa33"><option value="#015660"><option value="#bf274e"><option value="#bf4242"><option value="#51b37c"></datalist>
+  <div class="max-w-[65ch] mx-auto mt-8 lg:mt-12">
+    <ul class="timeline timeline-vertical">
+      
+      <li class="[--timeline-col-start:64px]">
+        <hr class="dark:bg-base-content" />
+        <div class="timeline-start !justify-self-start">
+          <div class="text-lg font-semibold">2024</div>
+        </div>
+        <div class="timeline-middle flex items-center mx-8 my-2">
+          <ion-icon name="time"></ion-icon>
+        </div>
+        <div class="timeline-end timeline-box dark:border-base-content/60 prose dark:prose-invert my-8">
+          <ul>
+            
+            <li>
+              <a href="/posts/hello-world/">Hello World</a>
+            </li>
+            
+          </ul>
+        </div>
+        <hr class="dark:bg-base-content" />
+      </li>
+      
+    </ul>
+  </div>
 </div>
 
 
+            <footer class="flex justify-between items-center gap-2 px-4 py-12">
+              <div>
+  
+  <p>
+    © 2024 ShunFeng&#39;s Blog
+  </p>
+  
 
-  <noscript>
-    <p class="noscript">Unable to execute JavaScript. Some features were disabled.</p>
-  </noscript>
+  
+  <p class="text-sm">
+    ⛤
+    <span class="text-base-content/60">
+      Powered by <a class="hover:underline" href="https://gohugo.io/" target="_blank">Hugo</a> with theme
+      <a class="hover:underline" href="https://github.com/g1eny0ung/hugo-theme-dream" target="_blank">Dream</a>.</span
+    >
+  </p>
+  
+</div>
 
+              <div
+  x-data="{ icons: [
+    { name: 'moon', status: 'y' },
+    { name: 'sunny', status: 'n' },
+    { name: 'desktop', status: 'auto' }
+  ] }"
+  class="flex items-center h-[32px] px-2 gap-2 border border-base-300 rounded-full"
+>
+  <template x-for="icon in icons">
+    <div
+      role="button"
+      tabindex="0"
+      class="group inline-flex justify-center items-center p-1 rounded-full cursor-pointer hover:bg-primary"
+      :class="$store.darkMode.icon() === icon.name && 'bg-primary'"
+      @click="$store.darkMode.toggle(icon.status)"
+    >
+      <ion-icon
+        :name="`${icon.name}-outline`"
+        class="group-hover:text-primary-content"
+        :class="$store.darkMode.icon() === icon.name && 'text-primary-content'"
+      >
+      </ion-icon>
+    </div>
+  </template>
+</div>
 
+            </footer>
+          </div>
+        </section>
+        <section class="back">
+          <div class="container">
+            <div class="dream-grid">
+  
+  
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">About = 關於 =</div>
 
-    </footer>
+        <div class="prose dark:prose-invert">
+          <p>HIHI，My name is <strong>ShunFeng</strong> .</p>
+<p>目前就是個測適用個個人部落格。</p>
+<blockquote>
+<p>2024 年 07 月 20 日更新。</p>
+</blockquote>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Commission = 委託 =</div>
+
+        <div class="prose dark:prose-invert">
+          <p>YCH</p>
+<p><a href="https://www.plurk.com/p/oswnor" target="_blank" > template-sit pose </a>。</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Sponsor Me = 贊助我 =</div>
+
+        <div class="prose dark:prose-invert">
+          <p>目前沒有什麼方式喔</p>
+<p>如想可以從社交連結找我看看</p>
+<!-- 如果你喜欢我的作品或者发现它们对你有所帮助，可以考虑给我买一杯咖啡 ☕️。这将激励我在未来创作和维护更多的项目。🦾
+
+👉 [请我喝一杯咖啡](/posts/buy-me-a-coffee)
+
+If you like my works or find them helpful, please consider buying me a cup of coffee ☕️. It inspires me to create and maintain more projects in the future. 🦾
+
+👉 [Buy me a coffee](/posts/buy-me-a-coffee) -->
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Web theme ref = 網站主題 =</div>
+
+        <div class="prose dark:prose-invert">
+          <p>Hugo Themes ： <a href="https://themes.gohugo.io/themes/hugo-theme-dream/" target="_blank" rel="license noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.25rem; text-decoration: underline;"> Dream</a>。</p>
+
+        </div>
+      </div>
+    </article>
+  </div>
+  
+  
+
+  
+  <div class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 dream-column">
+    <article
+      class="card card-compact bg-base-100 hover:bg-base-content/10 shadow-xl dark:border dark:border-base-content/30"
+    >
+      <div class="card-body">
+        <div class="card-title">Social Links = 社交連結 =</div>
+
+        <ul class="menu menu-horizontal flex-wrap w-full [&_ion-icon]:text-lg">
+  
+  <li>
+    <a href="mailto:leoshunfeng@gmail.com.com" title="Email">
+      <ion-icon name="mail"></ion-icon>
+    </a>
+  </li>
+  
+
+  
+  <li>
+    <a href="https://github.com/shunfenglee" target="_blank" title="GitHub">
+      <ion-icon name="logo-github"></ion-icon>
+    </a>
+  </li>
+  
+  <li>
+    <a href="https://x.com/ShunFengLee" target="_blank" title="X">
+      <ion-icon name="logo-x"></ion-icon>
+    </a>
+  </li>
+  
+  <li>
+    <a href="https://www.facebook.com/ShunFeng" target="_blank" title="Facebook">
+      <ion-icon name="logo-facebook"></ion-icon>
+    </a>
+  </li>
+  
+  <li>
+    <a href="https://www.linkedin.com/in/shunfeng-lee/" target="_blank" title="Linkedin">
+      <ion-icon name="logo-linkedin"></ion-icon>
+    </a>
+  </li>
+  
+</ul>
+
+      </div>
+    </article>
+  </div>
+  
+
+  
+  
+</div>
+
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script>
+  window.lightTheme = "emerald"
+  window.darkTheme = "forest"
+
+  window.hasTwitterEmbed =  null 
+  if (window.hasTwitterEmbed) {
+    
+    window.twttr = (function (d, s, id) {
+      var js,
+        fjs = d.getElementsByTagName(s)[0],
+        t = window.twttr || {}
+      if (d.getElementById(id)) return t
+      js = d.createElement(s)
+      js.id = id
+      js.src = 'https://platform.twitter.com/widgets.js'
+      fjs.parentNode.insertBefore(js, fjs)
+
+      t._e = []
+      t.ready = function (f) {
+        t._e.push(f)
+      }
+
+      return t
+    })(document, 'script', 'twitter-wjs')
+  }
+</script>
+<script src="https://cdn.jsdelivr.net/npm/imagesloaded@5.0.0/imagesloaded.pkgd.min.js" integrity="sha256-htrLFfZJ6v5udOG+3kNLINIKh2gvoKqwEhHYfTTMICc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+<script src="/js/grid.js"></script>
+<script src="/js/main.js"></script>
+
+     
+
+    
+
     
     
+  
     
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC18RE2BVS"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QC18RE2BVS');
+        }
+      </script>
+    
+  
+
 
     
-    
 
+    <script type="module" src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.4.0/dist/ionicons/ionicons.js"></script>
   </body>
 </html>

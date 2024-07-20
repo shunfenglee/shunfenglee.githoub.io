@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>赞赏 on ShunFeng&#39;s Blog</title>
+    <link>http://localhost:1313/tags/%E8%B5%9E%E8%B5%8F/</link>
+    <description>Recent content in 赞赏 on ShunFeng&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 20 Jul 2024 22:27:28 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%B5%9E%E8%B5%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Buy Me a Coffee</title>
+      <link>http://localhost:1313/posts/buy-me-a-coffee/</link>
+      <pubDate>Mon, 03 Jun 2019 14:21:26 +0800</pubDate>
+      <guid>http://localhost:1313/posts/buy-me-a-coffee/</guid>
+      <description>&lt;p&gt;如果你喜欢我的作品或者发现它们对你有所帮助，可以考虑给我买一杯咖啡 ☕️。这将激励我在未来创作和维护更多的项目。🦾&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

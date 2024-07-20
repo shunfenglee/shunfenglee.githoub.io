@@ -1,16 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <sitemap>
-    <loc>https://color-your-world-demo.netlify.app/en/sitemap.xml</loc>
-    
-      <lastmod>2022-03-08T00:00:00+00:00</lastmod>
-    
-  </sitemap>
-  
-  <sitemap>
-    <loc>https://color-your-world-demo.netlify.app/pt/sitemap.xml</loc>
-    
-  </sitemap>
-  
-</sitemapindex>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://shunfenglee.github.io/posts/hello-world/</loc>
+    <lastmod>2024-07-21T01:44:39+08:00</lastmod>
+  </url><url>
+    <loc>https://shunfenglee.github.io/categories/</loc>
+    <lastmod>2024-07-21T01:44:39+08:00</lastmod>
+  </url><url>
+    <loc>https://shunfenglee.github.io/</loc>
+    <lastmod>2024-07-21T01:44:39+08:00</lastmod>
+  </url><url>
+    <loc>https://shunfenglee.github.io/tags/</loc>
+    <lastmod>2024-07-21T01:44:39+08:00</lastmod>
+  </url><url>
+    <loc>https://shunfenglee.github.io/categories/test/</loc>
+    <lastmod>2024-07-21T01:44:39+08:00</lastmod>
+  </url><url>
+    <loc>https://shunfenglee.github.io/tags/tets/</loc>
+    <lastmod>2024-07-21T01:44:39+08:00</lastmod>
+  </url><url>
+    <loc>https://shunfenglee.github.io/search/</loc>
+    <lastmod>2024-07-20T22:27:28+08:00</lastmod>
+  </url><url>
+    <loc>https://shunfenglee.github.io/posts/</loc>
+    <lastmod>2024-07-21T01:44:39+08:00</lastmod>
+  </url>
+</urlset>

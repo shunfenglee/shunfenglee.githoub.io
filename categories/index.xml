@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Color Your World</title>
-    <link>https://color-your-world-demo.netlify.app/categories/</link>
-    <description>John Doe&#39;s personal website</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright © 2021, John Doe; All rights reserved.</copyright><atom:link href="https://color-your-world-demo.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+    <title>Categories on ShunFeng&#39;s Blog</title>
+    <link>https://shunfenglee.github.io/categories/</link>
+    <description>Recent content in Categories on ShunFeng&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Sun, 21 Jul 2024 01:44:39 +0800</lastBuildDate>
+    <atom:link href="https://shunfenglee.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test</title>
+      <link>https://shunfenglee.github.io/categories/test/</link>
+      <pubDate>Sun, 21 Jul 2024 00:01:40 +0800</pubDate>
+      <guid>https://shunfenglee.github.io/categories/test/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
