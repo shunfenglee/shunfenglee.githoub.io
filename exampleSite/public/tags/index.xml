@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ShunFeng_Blog</title>
-    <link>https://shunfenglee.github.io/tags/</link>
+    <link>http://localhost:7796/tags/</link>
     <description>Recent content in Tags on ShunFeng_Blog</description>
     <generator>Hugo</generator>
     <language>zh-tw</language>
     <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
-    <atom:link href="https://shunfenglee.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:7796/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Game</title>
-      <link>https://shunfenglee.github.io/tags/game/</link>
+      <link>http://localhost:7796/tags/game/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://shunfenglee.github.io/tags/game/</guid>
+      <guid>http://localhost:7796/tags/game/</guid>
       <description></description>
     </item>
     <item>
       <title>HTML</title>
-      <link>https://shunfenglee.github.io/tags/html/</link>
+      <link>http://localhost:7796/tags/html/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://shunfenglee.github.io/tags/html/</guid>
+      <guid>http://localhost:7796/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>New</title>
-      <link>https://shunfenglee.github.io/tags/new/</link>
+      <link>http://localhost:7796/tags/new/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://shunfenglee.github.io/tags/new/</guid>
+      <guid>http://localhost:7796/tags/new/</guid>
       <description></description>
     </item>
     <item>
       <title>Photos</title>
-      <link>https://shunfenglee.github.io/tags/photos/</link>
+      <link>http://localhost:7796/tags/photos/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://shunfenglee.github.io/tags/photos/</guid>
+      <guid>http://localhost:7796/tags/photos/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>https://shunfenglee.github.io/tags/python/</link>
+      <link>http://localhost:7796/tags/python/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://shunfenglee.github.io/tags/python/</guid>
+      <guid>http://localhost:7796/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>React</title>
-      <link>https://shunfenglee.github.io/tags/react/</link>
+      <link>http://localhost:7796/tags/react/</link>
       <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
-      <guid>https://shunfenglee.github.io/tags/react/</guid>
+      <guid>http://localhost:7796/tags/react/</guid>
       <description></description>
     </item>
   </channel>
